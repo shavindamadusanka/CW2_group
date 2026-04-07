@@ -108,7 +108,4 @@ class LoggerFactory:
     @staticmethod
     def create(logger_type: str = "console",
      name: str = "App") -> ILogger:
-        if logger_type.lower() == "file":
-            log_path = os.environ.get("LOG_FILE_PATH", "logs/app.log")
-            return _FileLogger(name, filepath=log_path)
         return _ConsoleLogger(name)
