@@ -1,4 +1,4 @@
-dependency-injector==4.41.0
+dependency-injector>=4.41.0
 pandas==2.1.4
 numpy==1.26.2
 matplotlib==3.8.2
