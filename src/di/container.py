@@ -2,7 +2,6 @@ from dependency_injector import containers, providers
 from core.util import LoggerFactory, ILogger
 from core.data.repository.local_file_repository import LocalFileRepository
 from core.domain.usecases.data_io_usecase import LoadDataUseCase, SaveDataUseCase
-from etl.domain.usecases.data_cleaning_usecase import DataCleaningUseCase
 
 class AppContainer(containers.DeclarativeContainer):
     """
