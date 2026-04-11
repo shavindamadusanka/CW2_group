@@ -17,9 +17,11 @@ dependencies.
     pip install -r requirements.txt
 
 4: Install setup tools, if pandas error happens
+
     python -m pip install --upgrade pip setuptools wheel
 
 5: Install Pandas
+
     pip install pandas
 
 ## Project Architecture
