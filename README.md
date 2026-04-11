@@ -9,7 +9,8 @@ dependencies.
 
 2: Activate Virtual Environment
 
-    source .venv/bin/activate 
+    source .venv/bin/activate #linux and macOS command
+    .venv\Scripts\Activate   #windows command
 
 3: Install Dependencies
 
